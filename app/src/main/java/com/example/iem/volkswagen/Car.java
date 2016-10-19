@@ -6,9 +6,16 @@ package com.example.iem.volkswagen;
 
 public class Car extends Vehicule {
 
-    public Car(String color, String model) {
+    private String type;
+
+    public Car(String model, String type) {
         this.color = color;
         this.model = model;
         this.nbrWheels = 4;
+        this.type = type;
+    }
+
+    public String getType() {
+        return type;
     }
 }

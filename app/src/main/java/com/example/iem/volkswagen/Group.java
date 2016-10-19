@@ -10,13 +10,20 @@ import java.util.List;
 public class Group {
 
     private String name;
+    public List<Subsidiary> subsidiaries;
 
-    public List<Subsidiary> subsidiaries = new ArrayList<>();
+
+
+    public Group(String name) {
+        this.name = name;
+        this.subsidiaries = new ArrayList<>();
+    }
 
     public Group(String name, List<Subsidiary> subsidiaries) {
         this.name = name;
         this.subsidiaries = subsidiaries;
     }
+
 
     public String getName() {
         return name;

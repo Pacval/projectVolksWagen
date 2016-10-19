@@ -8,9 +8,8 @@ public class Truck extends Vehicule {
 
     protected int maxWeightTrailer;
 
-    public Truck(int maxWeightTrailer, String color, String model) {
+    public Truck(int maxWeightTrailer, String model) {
         this.maxWeightTrailer = maxWeightTrailer;
-        this.color = color;
         this.model = model;
     }
 }

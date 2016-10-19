@@ -6,14 +6,9 @@ package com.example.iem.volkswagen;
 
 public abstract class Vehicule {
 
-    protected String color;
     protected String model;
     protected int nbrWheels;
 
-
-    public String getColor() {
-        return color;
-    }
 
     public String getModel() {
         return model;

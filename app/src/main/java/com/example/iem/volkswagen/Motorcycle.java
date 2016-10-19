@@ -6,8 +6,7 @@ package com.example.iem.volkswagen;
 
 public class Motorcycle extends Vehicule {
 
-    public Motorcycle(String color, String model) {
-        this.color = color;
+    public Motorcycle(String model) {
         this.model = model;
         this.nbrWheels = 2;
     }
